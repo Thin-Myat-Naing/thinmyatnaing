@@ -12,14 +12,29 @@
 html {
 	font-size: 63%;
 }
+h1 {
+	font-size: 6em;
+	font-family: 'Dongle-Bold', sans-serif;
+	font-weight: 700;
+}
+h2 {
+	font-size: 5em;
+	font-family: 'Dongle-Regular', sans-serif;
+	font-weight: 500;
+}
+h3 {
+	font-size: 4em;
+	font-family: 'Dongle', sans-serif;
+	font-weight: 300;
+}
 /*End of Reset and Common Styles*/
 
 /*Section 1*/
 .section-1 {
 	width: 100%;
 	height: 100vh;
-/*	background: linear-gradient(rgba(225, 123, 23, .3),rgba(225, 255, 255, 1.0)), url(image/bg.jpg) center no-repeat;
-*/	background: url(image/bg.jpg) center no-repeat;
+	background: linear-gradient(rgb(133,6,147, .87),rgb(131 127 104));
+	/*background: url(image/bg.jpg) center no-repeat;*/
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -27,9 +42,6 @@ html {
 	align-content: center;
 }
 .section-1-heading {
-	font-size: 6em;
-	font-family: 'Dongle-Bold', sans-serif;
-	font-weight: 700;
 	color: #fff;
 	background: #e41c6f;
 	text-align: center;
@@ -63,3 +75,24 @@ html {
 	margin-top: 5px;
 }
 /*End of Section 1*/
+/*Section 2*/
+.section-2 {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgb(131 127 104),rgb(15 45 50),rgb(157 146 117));
+}
+.section-2-heading {
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	padding: 80px;
+}
+.section-2-description {
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 40px;
+	padding: 13px;
+	max-width: 800px;
+}
+/*End of Section 2*/
